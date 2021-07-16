@@ -1,6 +1,6 @@
 # Spotify Playlist Backup
 
-Super simple python program to update a duplicate of a Spotify playlist.
+Super simple python program to update a duplicate of a Spotify playlist. Mostly for me to practice documenting projects on github. :)
 
 ### Use case:
 
