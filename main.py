@@ -1,15 +1,15 @@
 import spotipy
 import spotipy.util as util
 
-src = ''
-dst = ''
+src = '' # The source playlist
+dst = '' # The destination playlist
 
-username = ''
-client_id = ''
-client_secret = ''
-redirect_uri = 'http://localhost:8000/'
+username = '' # Your Spotify username
+client_id = '' # Your Spotify app client id 
+client_secret = '' # And secret
+redirect_uri = 'http://localhost:8000/' # The redirect url set on your Spotify app, must be identical!
 
-removeFromDst = True;
+removeFromDst = True; # Should songs ever be removed from the dst playlist if they are removed from the source. If true songs will be removed - mirror
 
 def auth():
     scope = 'playlist-modify-private playlist-read-private'
