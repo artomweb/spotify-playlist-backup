@@ -8,11 +8,11 @@ Collaborative playlists cannot be added to your profile, so to share one of thes
 
 ### How to run the python code:
 
-Clone or download this repository and fill in the information at the top of the **main.py** script:
+Clone or download this repository and fill in the information at the top of the **main.py** script. The playlist URIs can no longer be copied directly from Spotify, however if you copy the link for the playlist, the URI will be the 22 characters after the last slash. Eg: h<span>tps://</span>open.spotify.com/playlist/`37i9dQZF1DX3Tjn540kLxZ`?si=3abbdc11b6434db1
 
 ```python
-src = '' # The source playlist
-dst = '' # The destination playlist
+src = '' # The source playlist URI
+dst = '' # The destination playlist URI
 
 username = '' # Your Spotify username
 client_id = '' # Your Spotify app client id
